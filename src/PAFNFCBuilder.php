@@ -9,6 +9,9 @@ use IsmaelAdriano\PAFNFCe\Blocks\BlockE2;
 use IsmaelAdriano\PAFNFCe\Blocks\BlockD2;
 use IsmaelAdriano\PAFNFCe\Blocks\BlockD3;
 use IsmaelAdriano\PAFNFCe\Blocks\BlockD4;
+use IsmaelAdriano\PAFNFCe\Blocks\BlockEAD;
+use IsmaelAdriano\PAFNFCe\Blocks\BlockJ1;
+use IsmaelAdriano\PAFNFCe\Blocks\BlockJ2;
 use IsmaelAdriano\PAFNFCe\PAFNFCe;
 
 final class PAFNFCBuilder extends PAFNFCe
@@ -21,5 +24,8 @@ final class PAFNFCBuilder extends PAFNFCe
         'blockD2' => ['class' => BlockD2::class, 'order' => 5],
         'blockD3' => ['class' => BlockD3::class, 'order' => 6],
         'blockD4' => ['class' => BlockD4::class, 'order' => 7],
+        'blockJ1' => ['class' => BlockJ1::class, 'order' => 8],
+        'blockJ2' => ['class' => BlockJ2::class, 'order' => 9],
+        'blockEAD' => ['class' => BlockEAD::class, 'order' => 10],
     ];
 }
