@@ -1,6 +1,6 @@
 <?php
 
-namespace NFePHP\Sintegra;
+namespace IsmaelAdriano\PAFNFCe;
 
 use IsmaelAdriano\PAFNFCe\Blocks\BlockA2;
 use IsmaelAdriano\PAFNFCe\Blocks\BlockU1;
@@ -14,7 +14,7 @@ use IsmaelAdriano\PAFNFCe\Blocks\BlockJ1;
 use IsmaelAdriano\PAFNFCe\Blocks\BlockJ2;
 use IsmaelAdriano\PAFNFCe\PAFNFCe;
 
-final class PAFNFCBuilder extends PAFNFCe
+final class PAFNFCeBuilder extends PAFNFCe
 {
     protected $possibles = [
         'blockU1' => ['class' => BlockU1::class, 'order' => 1],
