@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.002748">
-    <testsuite name="Sintegra Test Suite" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.002748">
-      <testsuite name="IsmaelAdriano\PAFNFCe\Tests\EADTest" file="/home/ismaelc4/Projetos/paf-nfce-sc/src/tests/EADTest.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.002748">
-        <testcase name="testEAD" class="IsmaelAdriano\PAFNFCe\Tests\EADTest" classname="IsmaelAdriano.PAFNFCe.Tests.EADTest" file="/home/ismaelc4/Projetos/paf-nfce-sc/src/tests/EADTest.php" line="11" assertions="1" time="0.002748"/>
+  <testsuite name="" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.002938">
+    <testsuite name="Sintegra Test Suite" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.002938">
+      <testsuite name="IsmaelAdriano\PAFNFCe\Tests\A2Test" file="/home/ismaelc4/Projetos/paf-nfce-sc/src/tests/A2Test.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.002938">
+        <testcase name="testA2" class="IsmaelAdriano\PAFNFCe\Tests\A2Test" classname="IsmaelAdriano.PAFNFCe.Tests.A2Test" file="/home/ismaelc4/Projetos/paf-nfce-sc/src/tests/A2Test.php" line="11" assertions="1" time="0.002938"/>
       </testsuite>
     </testsuite>
   </testsuite>

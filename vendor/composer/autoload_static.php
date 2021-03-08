@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit2a8152989ef3296d15a195fcf7b83932
+class ComposerStaticInitf7cb4055ebefc2135475dbad73552433
 {
     public static $files = array (
         '9b38cf48e83f5d8f60375221cd213eee' => __DIR__ . '/..' . '/phpstan/phpstan/bootstrap.php',
@@ -390,6 +390,40 @@ class ComposerStaticInit2a8152989ef3296d15a195fcf7b83932
         'GuzzleHttp\\RetryMiddleware' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/RetryMiddleware.php',
         'GuzzleHttp\\TransferStats' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/TransferStats.php',
         'GuzzleHttp\\Utils' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/Utils.php',
+        'IsmaelAdriano\\PAFNFCe\\Blocks\\BlockA2' => __DIR__ . '/../..' . '/src/Blocks/BlockA2.php',
+        'IsmaelAdriano\\PAFNFCe\\Blocks\\BlockD2' => __DIR__ . '/../..' . '/src/Blocks/BockD2.php',
+        'IsmaelAdriano\\PAFNFCe\\Blocks\\BlockD3' => __DIR__ . '/../..' . '/src/Blocks/BockD3.php',
+        'IsmaelAdriano\\PAFNFCe\\Blocks\\BlockD4' => __DIR__ . '/../..' . '/src/Blocks/BockD4.php',
+        'IsmaelAdriano\\PAFNFCe\\Blocks\\BlockE2' => __DIR__ . '/../..' . '/src/Blocks/BockE2.php',
+        'IsmaelAdriano\\PAFNFCe\\Blocks\\BlockEAD' => __DIR__ . '/../..' . '/src/Blocks/BockEAD.php',
+        'IsmaelAdriano\\PAFNFCe\\Blocks\\BlockJ1' => __DIR__ . '/../..' . '/src/Blocks/BockJ1.php',
+        'IsmaelAdriano\\PAFNFCe\\Blocks\\BlockJ2' => __DIR__ . '/../..' . '/src/Blocks/BockJ2.php',
+        'IsmaelAdriano\\PAFNFCe\\Blocks\\BlockP2' => __DIR__ . '/../..' . '/src/Blocks/BockP2.php',
+        'IsmaelAdriano\\PAFNFCe\\Blocks\\BlockU1' => __DIR__ . '/../..' . '/src/Blocks/BlockU1.php',
+        'IsmaelAdriano\\PAFNFCe\\Common\\Block' => __DIR__ . '/../..' . '/src/Common/Block.php',
+        'IsmaelAdriano\\PAFNFCe\\Common\\BlockInterface' => __DIR__ . '/../..' . '/src/Common/BlockInterface.php',
+        'IsmaelAdriano\\PAFNFCe\\Common\\Element' => __DIR__ . '/../..' . '/src/Common/Element.php',
+        'IsmaelAdriano\\PAFNFCe\\Common\\ElementInterface' => __DIR__ . '/../..' . '/src/Common/ElementInterface.php',
+        'IsmaelAdriano\\PAFNFCe\\Elements\\A2' => __DIR__ . '/../..' . '/src/Elements/A2.php',
+        'IsmaelAdriano\\PAFNFCe\\Elements\\D2' => __DIR__ . '/../..' . '/src/Elements/D2.php',
+        'IsmaelAdriano\\PAFNFCe\\Elements\\D3' => __DIR__ . '/../..' . '/src/Elements/D3.php',
+        'IsmaelAdriano\\PAFNFCe\\Elements\\D4' => __DIR__ . '/../..' . '/src/Elements/D4.php',
+        'IsmaelAdriano\\PAFNFCe\\Elements\\E2' => __DIR__ . '/../..' . '/src/Elements/E2.php',
+        'IsmaelAdriano\\PAFNFCe\\Elements\\EAD' => __DIR__ . '/../..' . '/src/Elements/EAD.php',
+        'IsmaelAdriano\\PAFNFCe\\Elements\\J1' => __DIR__ . '/../..' . '/src/Elements/J1.php',
+        'IsmaelAdriano\\PAFNFCe\\Elements\\J4' => __DIR__ . '/../..' . '/src/Elements/J2.php',
+        'IsmaelAdriano\\PAFNFCe\\Elements\\P2' => __DIR__ . '/../..' . '/src/Elements/P2.php',
+        'IsmaelAdriano\\PAFNFCe\\Elements\\U1' => __DIR__ . '/../..' . '/src/Elements/U1.php',
+        'IsmaelAdriano\\PAFNFCe\\PAFNFCe' => __DIR__ . '/../..' . '/src/PAFNFCe.php',
+        'IsmaelAdriano\\PAFNFCe\\Tests\\A2Test' => __DIR__ . '/../..' . '/src/tests/A2Test.php',
+        'IsmaelAdriano\\PAFNFCe\\Tests\\D2Test' => __DIR__ . '/../..' . '/src/tests/D2Test.php',
+        'IsmaelAdriano\\PAFNFCe\\Tests\\D3Test' => __DIR__ . '/../..' . '/src/tests/D3Test.php',
+        'IsmaelAdriano\\PAFNFCe\\Tests\\D4Test' => __DIR__ . '/../..' . '/src/tests/D4Test.php',
+        'IsmaelAdriano\\PAFNFCe\\Tests\\E2Test' => __DIR__ . '/../..' . '/src/tests/E2Test.php',
+        'IsmaelAdriano\\PAFNFCe\\Tests\\EADTest' => __DIR__ . '/../..' . '/src/tests/EADTest.php',
+        'IsmaelAdriano\\PAFNFCe\\Tests\\J1Test' => __DIR__ . '/../..' . '/src/tests/J1Test.php',
+        'IsmaelAdriano\\PAFNFCe\\Tests\\P2Test' => __DIR__ . '/../..' . '/src/tests/P2Test.php',
+        'IsmaelAdriano\\PAFNFCe\\Tests\\U1Test' => __DIR__ . '/../..' . '/src/tests/U1Test.php',
         'JMS\\Parser\\AbstractLexer' => __DIR__ . '/..' . '/jms/parser-lib/src/JMS/Parser/AbstractLexer.php',
         'JMS\\Parser\\AbstractParser' => __DIR__ . '/..' . '/jms/parser-lib/src/JMS/Parser/AbstractParser.php',
         'JMS\\Parser\\SimpleLexer' => __DIR__ . '/..' . '/jms/parser-lib/src/JMS/Parser/SimpleLexer.php',
@@ -1876,10 +1910,10 @@ class ComposerStaticInit2a8152989ef3296d15a195fcf7b83932
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit2a8152989ef3296d15a195fcf7b83932::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit2a8152989ef3296d15a195fcf7b83932::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit2a8152989ef3296d15a195fcf7b83932::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInit2a8152989ef3296d15a195fcf7b83932::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitf7cb4055ebefc2135475dbad73552433::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitf7cb4055ebefc2135475dbad73552433::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInitf7cb4055ebefc2135475dbad73552433::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInitf7cb4055ebefc2135475dbad73552433::$classMap;
 
         }, null, ClassLoader::class);
     }

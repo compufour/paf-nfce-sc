@@ -5,6 +5,6 @@ http://www.sef.sc.gov.br/arquivos_portal/servicos/136/Ato_DIAT_53_2020___Anexo_I
 
 # Testes unitários dos blocos
 
-``sh
+``
 ./vendor/bin/phpunit  --filter {nome da classe que deseja testar}
 ``
