@@ -20,11 +20,11 @@ class D2 extends Element implements ElementInterface
             'length' => 14
         ],
         'NUMERO' => [
-            'type' => 'string',
+            'type' => 'numeric',
             'regex' => '^.{1,13}$',
             'required' => true,
             'info' => 'Número do DAV emitido',
-            'format' => 'empty',
+            'format' => 'totalNumber',
             'length' => 13
         ],
         'DATA' => [
