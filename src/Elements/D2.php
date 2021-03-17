@@ -61,7 +61,7 @@ class D2 extends Element implements ElementInterface
         ],
         'CNPJ_CLIENTE' => [
             'type' => 'string',
-            'regex' => '^[0-9]{14}$',
+            'regex' => '^\d+(\.\d*)?|\.\d+$',
             'required' => false,
             'info' => 'CPF ou CNPJ do adquirente',
             'format' => '',
