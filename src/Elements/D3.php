@@ -12,11 +12,11 @@ class D3 extends Element implements ElementInterface
 
     protected $parameters = [
         'NUMERO' => [
-            'type' => 'string',
-            'regex' => '^.{1,13}$',
+            'type' => 'numeric',
+            'regex' => '^\d+(\.\d*)?|\.\d+$',
             'required' => true,
             'info' => 'Número do DAV emitido onde está contido o item',
-            'format' => 'empty',
+            'format' => 'totalNumber',
             'length' => 13
         ],
         'DATA_INCLUSAO' => [
