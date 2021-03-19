@@ -48,7 +48,7 @@ class A2 extends Element implements ElementInterface
             'regex' => '^[0-9]{14}$',
             'required' => false,
             'info' => 'CPF ou CNPJ do cliente que realizou a operação.',
-            'format' => 'empty',
+            'format' => 'totalNumber',
             'length' => 14
         ],
         'NUMERO_DOCUMENTO' => [

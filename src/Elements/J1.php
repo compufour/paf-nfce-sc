@@ -111,8 +111,8 @@ class J1 extends Element implements ElementInterface
             'type' => 'string',
             'regex' => '^[0-9]{14}$',
             'required' => false,
-            'info' => 'CPF ou CNPJ do adquirente',
-            'format' => '',
+            'info' => 'CPF ou CNPJ do cliente que realizou a operação.',
+            'format' => 'totalNumber',
             'length' => 14
         ],
     ];
