@@ -29,7 +29,7 @@ class D2 extends Element implements ElementInterface
         ],
         'DATA' => [
             'type' => 'string',
-            'regex' => '^(0[1-9]|[1-2][0-9]|31(?!(?:0[2469]|11))|30(?!02))(0[1-9]|1[0-2])([12]\d{3})$',
+            'regex' => '^([12]\d{3})(0[1-9]|1[0-2])(0[1-9]|[1-2][0-9]|31(?!(?:0[2469]|11))|30(?!02))$',
             'required' => true,
             'info' => 'Data de emissão do DAV',
             'format' => '',
