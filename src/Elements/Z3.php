@@ -14,18 +14,18 @@ class Z3 extends Element
     protected $parameters = [
         'NOME_APLICATIVO' => [
             'type' => 'string',
-            'regex' => '^[0-9]{14}$',
+            'regex' => '^.{1,50}$',
             'required' => true,
             'info' => 'Nome do aplicativo.',
-            'format' => '',
+            'format' => 'empty',
             'length' => 50
         ],
         'VERSAO' => [
             'type' => 'string',
-            'regex' => '^[0-9]{2,14}$',
+            'regex' => '^.{1,10}$',
             'required' => true,
             'info' => 'Versão do aplicativo do NFC-e',
-            'format' => '',
+            'format' => 'empty',
             'length' => 10
         ],
     ];

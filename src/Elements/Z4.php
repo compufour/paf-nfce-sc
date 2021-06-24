@@ -52,14 +52,6 @@ class Z4 extends Element
             'format' => '',
             'length' => 8
         ],
-        'DATA_GERACAO' => [
-            'type' => 'string',
-            'regex' => '^([12]\d{3})(0[1-9]|1[0-2])(0[1-9]|[1-2][0-9]|31(?!(?:0[2469]|11))|30(?!02))$',
-            'required' => true,
-            'info' => 'Data que o relatório foi gerado pelo PAF-NFC-e',
-            'format' => '',
-            'length' => 8
-        ],
         'HORA_GERACAO' => [
             'type' => 'string',
             'regex' => '^.{6,6}$',
