@@ -39,7 +39,7 @@ abstract class PAFNFCe
     private function generateEAD($pafNFce)
     {
         $md5FileContent = md5($pafNFce);
-        $signature = [];
+        $signature = '';
         $new_key_pair = openssl_pkey_new(array(
             "private_key_bits" => 1024,
             "private_key_type" => OPENSSL_KEYTYPE_RSA,
