@@ -45,10 +45,10 @@ class A2 extends Element implements ElementInterface
         ],
         'CNPJ' => [
             'type' => 'string',
-            'regex' => '^[0-9]{14}$',
-            'required' => false,
-            'info' => 'CPF ou CNPJ do cliente que realizou a operação.',
-            'format' => 'totalNumber',
+            'regex' => '^[0-9]{11,14}$',
+            'required' => true,
+            'info' => 'CNPJ d do cliente da NFCe.',
+            'format' => '',
             'length' => 14
         ],
         'NUMERO_DOCUMENTO' => [
