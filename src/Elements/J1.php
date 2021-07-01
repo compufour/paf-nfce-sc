@@ -110,7 +110,7 @@ class J1 extends Element implements ElementInterface
         'CNPJ_CLIENTE' => [
             'type' => 'string',
             'regex' => '^[0-9]{11,14}$',
-            'required' => true,
+            'required' => false,
             'info' => 'CNPJ d do cliente da NFCe.',
             'format' => '',
             'length' => 14
