@@ -22,7 +22,7 @@ class Z1 extends Element
         ],
         'IE' => [
             'type' => 'string',
-            'regex' => '^[0-9]{2,14}$',
+            'regex' => '^(\s*|\d+)$',
             'required' => true,
             'info' => 'Número de inscrição do estudal.',
             'format' => '',
