@@ -29,7 +29,7 @@ abstract class Element implements ElementInterface
     protected function standarize(\stdClass $std)
     {
         if (empty($this->parameters)) {
-            throw new Exception('Parametros não estabelecidos na classe');
+            throw new Exception('Parâmetros não estabelecidos na classe');
         }
         $errors = [];
         $arr = array_change_key_case(get_object_vars($std), CASE_LOWER);
@@ -42,7 +42,7 @@ abstract class Element implements ElementInterface
         }
         $stdParam = json_decode($json);
         if ($stdParam === null) {
-            throw new \RuntimeException("Houve uma falha na converção para stdClass");
+            throw new \RuntimeException("Houve uma falha na conversão para stdClass");
         }
         foreach ($std as $key => $value) {
             if (!isset($stdParam->$key)) {
@@ -112,7 +112,7 @@ abstract class Element implements ElementInterface
                 break;
             case 'numeric':
                 if (!is_numeric($input)) {
-                    return "[$this->reg] $element campo: $fieldname deve ser um numero.";
+                    return "[$this->reg] $element campo: $fieldname deve ser um número.";
                 }
                 break;
             case 'string':
