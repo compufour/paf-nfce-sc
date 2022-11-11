@@ -48,7 +48,7 @@ class A2 extends Element implements ElementInterface
             'regex' => '^[0-9]{11,14}$',
             'required' => false,
             'info' => 'CNPJ d do cliente da NFCe.',
-            'format' => '',
+            'format' => 'totalNumber',
             'length' => 14
         ],
         'NUMERO_DOCUMENTO' => [
