@@ -163,7 +163,6 @@ abstract class Element implements ElementInterface
             return $this->formatFieldEmpty($value, $length);
         }
 
-
         $this->values->$name = (float) $value;
         return $this->numberFormat(floatval($value), $format, $fieldname);
     }
@@ -200,7 +199,6 @@ abstract class Element implements ElementInterface
         $decplaces = (int) $n[1];
         return number_format($value, $decplaces, ',', '');
     }
-
 
     private function numberTotalFormat($value, $length)
     {
