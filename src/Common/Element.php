@@ -163,7 +163,6 @@ abstract class Element implements ElementInterface
             return $this->formatFieldEmpty($value, $length);
         }
 
-
         $this->values->$name = (float) $value;
         return $this->numberFormat(floatval($value), $format, $fieldname);
     }
@@ -201,7 +200,6 @@ abstract class Element implements ElementInterface
         return number_format($value, $decplaces, ',', '');
     }
 
-
     private function numberTotalFormat($value, $length)
     {
         return str_pad($value, $length, "0", STR_PAD_LEFT);
@@ -209,8 +207,6 @@ abstract class Element implements ElementInterface
 
     private function numberFormatAliquota($value, $length)
     {
-        $value = str_pad($value, 4, "0", STR_PAD_RIGHT);
-
         return str_pad($value, $length, "0", STR_PAD_LEFT);
     }
 

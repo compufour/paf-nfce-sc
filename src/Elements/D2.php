@@ -53,10 +53,10 @@ class D2 extends Element implements ElementInterface
         ],
         'CLIENTE' => [
             'type' => 'string',
-            'regex' => '^.{1,40}$',
+            'regex' => '^.{0,40}$',
             'required' => true,
             'info' => 'Nome do cliente',
-            'format' => '',
+            'format' => 'empty',
             'length' => 40
         ],
         'CNPJ_CLIENTE' => [
