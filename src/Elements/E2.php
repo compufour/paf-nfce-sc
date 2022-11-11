@@ -69,7 +69,7 @@ class E2 extends Element implements ElementInterface
         ],
         'QUANTIDADE' => [
             'type' => 'numeric',
-            'regex' => '^\d+(\.\d*)?|\.\d+$',
+            'regex' => '[+-]?([0-9]*[.])?[0-9]+',
             'required' => true,
             'info' => 'Quantidade da mercadoria ou produto constante no estoque, com três casas decimais',
             'format' => 'totalNumber',
