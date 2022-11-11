@@ -62,9 +62,9 @@ class D3 extends Element implements ElementInterface
         'UNIDADE' => [
             'type' => 'string',
             'regex' => '^.{1,3}$',
-            'required' => true,
+            'required' => false,
             'info' => 'Unidade de medida cadastrada',
-            'format' => '',
+            'format' => 'empty',
             'length' => 3
         ],
         'VALOR_UNITARIO' => [
