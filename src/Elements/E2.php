@@ -54,9 +54,9 @@ class E2 extends Element implements ElementInterface
         'UNIDADE' => [
             'type' => 'string',
             'regex' => '^.{1,6}$',
-            'required' => true,
+            'required' => false,
             'info' => 'Unidade de medida cadastrada na tabela a que se refere o Requisito XIII deste Anexo',
-            'format' => '',
+            'format' => 'empty',
             'length' => 6
         ],
         'MENSURACAO' => [
