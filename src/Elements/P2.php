@@ -62,25 +62,25 @@ class P2 extends Element implements ElementInterface
         'IAT' => [
             'type' => 'string',
             'regex' => '^.{1,1}$',
-            'required' => true,
+            'required' => false,
             'info' => 'Indicador de Arredondamento ou Truncamento, conforme Item 6.3.1.3',
-            'format' => '',
+            'format' => 'empty',
             'length' => 1
         ],
         'IPPT' => [
             'type' => 'string',
             'regex' => '^.{1,1}$',
-            'required' => true,
+            'required' => false,
             'info' => 'Indicador de Produção Própria ou de Terceiro, conforme item 6.3.1.4',
-            'format' => '',
+            'format' => 'empty',
             'length' => 1
         ],
         'ST' => [
             'type' => 'string',
             'regex' => '^.{1,1}$',
-            'required' => true,
+            'required' => false,
             'info' => 'Código da Situação Tributaria, conforme tabela constante no item 6.3.1.5',
-            'format' => '',
+            'format' => 'empty',
             'length' => 1
         ],
         'ALIQUOTA' => [
