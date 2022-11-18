@@ -102,9 +102,9 @@ class D4 extends Element implements ElementInterface
         'ST' => [
             'type' => 'string',
             'regex' => '^.{1,1}$',
-            'required' => true,
+            'required' => false,
             'info' => 'Código da Situação Tributaria, conforme tabela constante no item 6.3.1.5',
-            'format' => '',
+            'format' => 'empty',
             'length' => 1
         ],
         'ALIQUOTA' => [
