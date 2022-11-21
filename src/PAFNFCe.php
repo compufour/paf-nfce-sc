@@ -30,9 +30,6 @@ abstract class PAFNFCe
             }
         }
 
-        $EADGenarator = $this->generateEAD($pafNFce);
-        $pafNFce .= 'EAD'.strtoupper($EADGenarator);
-
         return $pafNFce;
     }
 
