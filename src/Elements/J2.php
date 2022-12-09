@@ -6,9 +6,9 @@ use IsmaelAdriano\PAFNFCe\Common\Element;
 use IsmaelAdriano\PAFNFCe\Common\ElementInterface;
 use \stdClass;
 
-class J4 extends Element implements ElementInterface
+class J2 extends Element implements ElementInterface
 {
-    const REGISTRO = 'J4';
+    const REGISTRO = 'J2';
 
     protected $parameters = [
         'CNPJ' => [
@@ -62,9 +62,9 @@ class J4 extends Element implements ElementInterface
         'UNIDADE' => [
             'type' => 'string',
             'regex' => '^.{1,3}$',
-            'required' => true,
+            'required' => false,
             'info' => 'Unidade de medida cadastrada',
-            'format' => '',
+            'format' => 'empty',
             'length' => 3
         ],
         'VALOR_UNITARIO' => [
@@ -102,9 +102,9 @@ class J4 extends Element implements ElementInterface
         'TOTALIZADOR_PARCIAL' => [
             'type' => 'string',
             'regex' => '^.{1,7}$',
-            'required' => true,
+            'required' => false,
             'info' => 'Código do totalizador relativo ao produto ou serviço conforme tabela abaixo',
-            'format' => '',
+            'format' => 'empty',
             'length' => 7
         ],
         'CASAS_DECIMAIS_QTD' => [
@@ -133,7 +133,7 @@ class J4 extends Element implements ElementInterface
         ],
         'SERIE_NFCE' => [
             'type' => 'string',
-            'regex' => '^.{3,3}$',
+            'regex' => '^.{1,3}$',
             'required' => true,
             'info' => 'Série da NFce',
             'format' => '',
@@ -142,9 +142,9 @@ class J4 extends Element implements ElementInterface
         'CHAVE_NFCE' => [
             'type' => 'string',
             'regex' => '^.{44,44}$',
-            'required' => true,
+            'required' => false,
             'info' => 'Chave de acesso da NFC-e',
-            'format' => '',
+            'format' => 'empty',
             'length' => 44
         ],
     ];
