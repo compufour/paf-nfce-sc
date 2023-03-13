@@ -73,30 +73,6 @@ class D4 extends Element implements ElementInterface
             'required' => true,
             'info' => 'Valor unitário do produto ou serviço, sem a separação da casas decimais',
             'format' => 'totalNumber',
-            'length' => 8
-        ],
-        'DESCONTO' => [
-            'type' => 'numeric',
-            'regex' => '^\d+(\.\d*)?|\.\d+$',
-            'required' => false,
-            'info' => 'Valor do desconto incidente sobre o valor do item, com duas casas decimais.',
-            'format' => 'totalNumber',
-            'length' => 8
-        ],
-        'ACRESCIMO' => [
-            'type' => 'numeric',
-            'regex' => '^\d+(\.\d*)?|\.\d+$',
-            'required' => false,
-            'info' => 'Valor do acréscimo incidente sobre o valor do item, com duas casas decimais.',
-            'format' => 'totalNumber',
-            'length' => 8
-        ],
-        'VALOR_TOTAL_LIQUIDO' => [
-            'type' => 'numeric',
-            'regex' => '^\d+(\.\d*)?|\.\d+$',
-            'required' => true,
-            'info' => 'Valor total líquido do item, com duas casas decimais.',
-            'format' => 'totalNumber',
             'length' => 14
         ],
         'ST' => [
