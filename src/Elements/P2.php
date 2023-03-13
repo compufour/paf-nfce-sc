@@ -97,7 +97,7 @@ class P2 extends Element implements ElementInterface
             'required' => true,
             'info' => 'Valor unitário com duas casas decimais',
             'format' => 'totalNumber',
-            'length' => 12
+            'length' => 14
         ],
     ];
 
