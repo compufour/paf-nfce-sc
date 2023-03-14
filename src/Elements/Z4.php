@@ -28,6 +28,22 @@ class Z4 extends Element
             'format' => 'totalNumber',
             'length' => 14
         ],
+        'TOTALIZACAO_VENDAS' => [
+            'type' => 'numeric',
+            'regex' => '^\d+(\.\d*)?|\.\d+$',
+            'required' => true,
+            'info' => 'Total de vendas no mês, com duas casas decimais, ao CPF/CNPJ indicado no campo 02',
+            'format' => 'totalNumber',
+            'length' => 14
+        ],
+        'TOTALIZACAO_OUTRAS' => [
+            'type' => 'numeric',
+            'regex' => '^\d+(\.\d*)?|\.\d+$',
+            'required' => true,
+            'info' => 'Total de saídas diversas das vendas no mês, tais como “bonificações”, “brindes”, “prêmio” etc, com duas casas decimais, ao CPF/CNPJ indicado no campo 02',
+            'format' => 'totalNumber',
+            'length' => 14
+        ],
         'DATA_INICIAL' => [
             'type' => 'string',
             'regex' => '^([12]\d{3})(0[1-9]|1[0-2])(0[1-9]|[1-2][0-9]|31(?!(?:0[2469]|11))|30(?!02))$',
